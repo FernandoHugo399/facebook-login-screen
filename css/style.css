@@ -67,3 +67,89 @@ header{
     border: 1px solid #3188fa;
     cursor: pointer;
 }
+
+.container-main{
+    background: linear-gradient(white, #d3d8e8);
+}
+
+.img-pessoas{
+    padding-top: 34px;
+    float: left;
+    width: 65%;
+}
+
+.form-cadastro{
+    padding-top: 34px;
+    width: 33%;
+    float: right;
+}
+
+.form-cadastro h2{
+    font-size: 30px;
+}
+
+.form-cadastro h3{
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.w50{
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.w50 input{
+    width: 100%;
+    padding: 8px 0;
+    font-size: 15px;
+    padding-left: 8px;
+    border: 1px solid #4a96f8;
+    border-radius: 5px;
+}
+
+.w100{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.w100 input{
+    width: 99%;
+    padding: 8px 0;
+    font-size: 15px;
+    padding-left: 8px;
+    border: 1px solid #4a96f8;
+    border-radius: 5px;
+}
+
+.w100 h2{
+    font-weight: normal;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.w100 input[type="date"]{
+    width: 40%;
+}
+
+.input-radio{
+    float: left;
+    margin-left: 10px;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.submit input{
+    width: 100%;
+    max-width: 200px;
+    background-color: #639e4d;
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+    padding: 10px;
+    border: 1px solid #568a45;
+    cursor: pointer;
+    margin-bottom: 40px;
+}

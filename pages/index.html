@@ -24,16 +24,16 @@
 
                 <div class="form-element">
                     <p>E-mail ou telefone:</p>
-                    <input type="email">
+                    <input type="email" title="E-mail" name="email" required>
                 </div> <!-- form-element -->
 
                 <div class="form-element">
                     <p>Senha:</p>
-                    <input type="password">
+                    <input type="password" title="Senha" name="senha" required>
                 </div> <!-- form-element -->
 
                 <div class="form-element">
-                    <input type="submit" value="Entrar">
+                    <input title="Entrar" type="submit" value="Entrar">
                 </div> <!-- form-element -->
 
             </form> <!-- form-contaner-1 -->
@@ -41,6 +41,55 @@
         </div> <!-- center -->
     </header> <!-- container-1 -->
 
-    
+    <main class="container-main">
+        <div class="center">
+
+            <div class="img-pessoas"><img title="pessoas" src="../img/fcb.jpg" alt="pessoas"></div>
+
+
+            <form class="form-cadastro">
+                <h2>Abra Sua conta</h2>
+                <h3>É gratuito e sempre será</h3>
+
+                <div class="w50">
+                    <input type="text" placeholder="Nome" required>
+                </div> <!-- w50 -->
+
+                <div class="w50">
+                    <input type="text" placeholder="Sobrenome" required>
+                </div> <!-- w50 -->
+
+                <div class="w100">
+                    <input type="email" placeholder="E-mail" title="E-mail" required>
+                </div> <!-- w100 -->
+
+                <div class="w100">
+                    <input type="password" placeholder="Senha" title="Senha" required>
+                </div> <!-- w100 -->
+                
+                <div class="w100">
+                    <h2>Data de Nascimento:</h2>
+                    <input type="date" placeholder="data" title="Data" required>
+                </div> <!-- w100 -->
+
+                <div class="input-radio">
+                    <input type="radio" name="sexo">
+                    <span>Masculino</span>
+                </div> <!-- input-radio -->
+
+                <div class="input-radio">
+                    <input type="radio" name="sexo"> 
+                    <span>Feminino</span>
+                </div> <!-- input-radio -->
+                
+                <div class="submit">
+                    <input type="submit" value="Cadastrar-se">
+                </div> <!-- submit -->
+            </form > <!-- form-cadastro -->
+            
+
+        </div> <!-- center -->
+        <div class="clear"></div>
+    </main> <!-- container-main -->
 </body>
 </html>
