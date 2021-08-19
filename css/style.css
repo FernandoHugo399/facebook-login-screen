@@ -213,11 +213,33 @@ header{
     .form-element input{
         width: 100%;
         max-width: 350px;
+        
     }
 
     .form-element input[type="submit"]{
         width: 100%;
         max-width: 150px;
         margin-top: 10px;
+    }
+
+    .img-pessoas{
+        display: none;
+    }
+
+    .form-cadastro{
+        float: none;
+        width: 100%;
+    }
+
+    .input-radio{
+        width: 98%;
+        margin-left: 10px;
+    }
+
+    .submit{
+        float: none;
+        display: inline;
+        left: 0;
+        margin-left: 10px;
     }
 }
