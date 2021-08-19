@@ -57,14 +57,15 @@ header{
 .form-element input{
     outline: 0;
     margin-left: 8px;
+    border: 0;
 }
 
 .form-element input[type="submit"]{
-    background-color: #4a96f8;
+    background-color: #4491f5;
     padding: 2px 4px;
     margin-left: 10px;
     color: white;
-    border: 1px solid #3188fa;
+    border: 1px solid #2a7eeb;
     cursor: pointer;
 }
 
@@ -146,10 +147,77 @@ header{
     max-width: 200px;
     background-color: #639e4d;
     color: white;
-    font-size: 17px;
-    font-weight: normal;
+    font-size: 16px;
+    font-weight: bold;
     padding: 10px;
     border: 1px solid #568a45;
     cursor: pointer;
     margin-bottom: 40px;
+}
+
+.idiomas{
+    margin-top: 25px;
+}
+
+.idiomas ul li{
+    display: inline;
+    padding-left: 10px;
+}
+
+.idiomas ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(51, 82, 148);
+}
+
+.idiomas ul li a.first{
+    color: gray;
+}
+
+.listra{
+    padding-top: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.oferecimentos-rodape {
+    margin-top: 70px;
+}
+
+.oferecimentos-rodape ul li{
+    display: inline;
+    padding-right: 15px;
+}
+
+.oferecimentos-rodape ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(51, 82, 148);
+}
+
+@media screen and (max-width:768px){
+    .logo{
+        float: none;
+        text-align: center;
+    }
+
+    .form-container-1{
+        float: none;
+        text-align: center;
+        right: 0;
+    }
+
+    .form-element{
+        display: block;   
+    }
+
+    .form-element input{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .form-element input[type="submit"]{
+        width: 100%;
+        max-width: 150px;
+        margin-top: 10px;
+    }
 }
